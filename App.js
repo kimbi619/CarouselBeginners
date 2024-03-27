@@ -2,12 +2,18 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import AppCarousel from './components/AppCarousel';
 import Parallax from './components/Parallax';
+import Vertical from './components/Vertical';
+import ScaleFadeInOut from './components/ScaleFadeInOut';
+import Circular from './components/Circular';
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <AppCarousel /> */}
       <Parallax />
+      <Vertical />
+      {/* <Circular /> */}
+      {/* <ScaleFadeInOut /> */}
       <StatusBar style="auto" />
     </View>
   );

@@ -12,7 +12,7 @@ import Carousel from "react-native-reanimated-carousel";
 const PAGE_WIDTH = Dimensions.get('window').width;
 
 
-const list = [
+export const list = [
     {
         id: '1',
         title: 'First Item',
